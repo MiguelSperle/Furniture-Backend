@@ -47,13 +47,6 @@ DATABASE_URL="file:./dev.db"
 ```
 
 ```
-# CLOUDINARY NUVEM
-CLOUDINARY_CLOUD_NAME="aaaaaaaa" this is an example
-CLOUDINARY_API_KEY="1234567" this is an example
-CLOUDINARY_API_SECRET="aaaaaaaaaa" this is an example
-```
-
-```
 # SECRET
 JWT_SECRET_KEY="you can invent your key"
 ```

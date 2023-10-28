@@ -6,9 +6,6 @@ config() // Esse config ele carrega as variáveis de ambiente definidas no .env 
 const envShema = z.object({
   PORT: z.coerce.number().default(3333),
   DATABASE_URL: z.string(),
-  CLOUDINARY_CLOUD_NAME: z.string(),
-  CLOUDINARY_API_KEY: z.string(),
-  CLOUDINARY_API_SECRET: z.string(),
   JWT_SECRET_KEY: z.string().default('secret'),
 })
 

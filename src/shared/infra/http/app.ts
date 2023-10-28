@@ -10,4 +10,3 @@ app.register(jwt, {
 })
 
 Routes(app)
-require('./../../../config/cloudinary')
