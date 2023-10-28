@@ -58,7 +58,7 @@ PORT=3333
 
 Attention ❗❗❗
 
-if you wanna to use this project, you need file .env.
+if you wanna use this project, you need file .env.
 
 ---------------
 
