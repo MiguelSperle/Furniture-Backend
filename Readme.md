@@ -9,6 +9,7 @@ user can log in with it, we have also a route that update token constantly to th
   - [What I improved and learned](#what-i-improved-and-learned)
 - [Links](#Links)
 - [How to Clone this Repository](#how-to-clone-this-repository)
+- [File .env](#file-.env)
 ---------------
 
 ## My Process Below
@@ -37,6 +38,37 @@ I was able to learn how to create and use Use Case and Data Transfer Object, I a
 - Linkedin: [Click-me](#Links)
 
 ---------------
+
+### File .env
+
+```
+# Database
+DATABASE_URL="file:./dev.db"
+```
+
+```
+# CLOUDINARY NUVEM
+CLOUDINARY_CLOUD_NAME="aaaaaaaa" this is an example
+CLOUDINARY_API_KEY="1234567" this is an example
+CLOUDINARY_API_SECRET="aaaaaaaaaa" this is an example
+```
+
+```
+# SECRET
+JWT_SECRET_KEY="you can invent your key"
+```
+
+```
+# SERVER
+PORT=3333
+```
+
+Attention ❗❗❗
+
+if you wanna to use this project, you need file .env.
+
+---------------
+
 
 ### How to Clone this Repository
 
