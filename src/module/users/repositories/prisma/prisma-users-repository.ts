@@ -79,20 +79,4 @@ export class PrismaUsersRepository implements UsersRepositoryType {
 
     return null
   }
-
-  async editPasswordUser(
-    email: string,
-    newPassword: string,
-  ): Promise<IUserDTO | null> {
-    const user = await prisma.user.update({
-      where: {
-        email,
-      },
-      data: {
-        password: newPassword,
-      },
-    })
-
-    return user
-  }
 }

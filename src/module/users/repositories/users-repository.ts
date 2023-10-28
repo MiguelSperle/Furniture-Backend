@@ -11,6 +11,5 @@ export interface UsersRepositoryType {
   findRefreshToken(
     RefreshToken: string,
   ): Promise<IRefreshTokenDTO | null | string>
-  editPasswordUser(email: string, newPassword: string): Promise<IUserDTO | null>
 }
 // Promise ele retorna algo

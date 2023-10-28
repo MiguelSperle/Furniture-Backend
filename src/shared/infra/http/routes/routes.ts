@@ -4,13 +4,11 @@ import { LoginUserController } from '../../../../module/users/controllers/LoginU
 import { RefreshTokenUser } from '../../../../module/users/controllers/RefreshToken'
 import { GetProductsController } from '../../../../module/users/controllers/GetProducts'
 import { ensureAuthenticated } from '../middlewares/ensureAuthenticated'
-import { EditPasswordController } from '../../../../module/users/controllers/EditPasswordUser'
 
 const createUserController = new CreateUserController()
 const loginUserController = new LoginUserController()
 const refreshTokenController = new RefreshTokenUser()
 const getProductsController = new GetProductsController()
-const editPasswordController = new EditPasswordController()
 
 export async function Routes(app: FastifyInstance) {
   app.post('/auth/register', createUserController.handle)
@@ -21,5 +19,4 @@ export async function Routes(app: FastifyInstance) {
     { preHandler: ensureAuthenticated },
     getProductsController.handle,
   )
-  app.post('/edit/password', editPasswordController.handle)
 }
