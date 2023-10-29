@@ -21,6 +21,7 @@ user can log in with it, we have also a route that update token constantly to th
   <li>TypeScript</li>
   <li>Prisma</li>
   <li>Axios</li>
+  <li>Zod</li>
 </ul>
 
 ---------------
