@@ -1,4 +1,4 @@
-# Ecommerce | Mobile Backend
+# Furniture | Backend 
 
 Summarizing, in this project, we have some routes that have some functionalities, how create an account for user,
 user can log in with it, we have also a route that update token constantly to that user never log out and we have a route where you can get the products
@@ -36,7 +36,7 @@ I was able to learn how to create and use Use Case and Data Transfer Object, I a
 ### Links
 
 - Repository: [Click-me](https://github.com/MiguelSperle/Ecommerce-Mobile-Backend)
-- Linkedin: [Click-me](#Links)
+- Linkedin: [Click-me](https://www.linkedin.com/in/miguel-sperle-851916298/)
 
 ---------------
 
@@ -70,13 +70,13 @@ if you wanna use this project, you need file .env.
 ```⌨ Clone the repository```
 
 ```
-git clone https://github.com/MiguelSperle/Ecommerce-Mobile-Backend.git
+git clone https://github.com/MiguelSperle/Furniture-Backend.git
 ```
 
 ```📂 Access at folder```
 
 ```
-cd Ecommerce-Mobile-Backend
+cd Furniture-Backend
 ```
 
 ```📡 Install dependencies```
