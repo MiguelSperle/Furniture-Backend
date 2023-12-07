@@ -95,9 +95,24 @@ npx prisma generate
 npx prisma migrate deploy
 ```
 
+```
+npx prisma studio
+```
+
 
 ```⭐ Start the project```
 
 ```
 npm run dev / yarn run dev
+```
+
+
+### Email and Password to enter in the frontend
+
+```
+Email: Teste@gmail.com
+```
+
+```
+password: teste123
 ```

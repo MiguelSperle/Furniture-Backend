@@ -24,7 +24,7 @@
     "@babel/preset-env": "^7.22.14",
     "@babel/preset-typescript": "^7.22.11",
     "@fastify/jwt": "^7.2.0",
-    "@prisma/client": "^5.5.2",
+    "@prisma/client": "^5.7.0",
     "axios": "^1.5.0",
     "bcrypt": "^5.1.1",
     "cloudinary": "^1.40.0",
