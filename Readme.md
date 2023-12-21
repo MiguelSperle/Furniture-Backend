@@ -17,7 +17,7 @@ user can log in with it, we have also a route that update token constantly to th
 ### Built with
 
 <ul>
-  <li>Fastify/Node JS</li>
+  <li>Fastify</li>
   <li>TypeScript</li>
   <li>Prisma</li>
   <li>Zod</li>
