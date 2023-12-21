@@ -1,8 +1,4 @@
-import { PrismaClient } from '@prisma/client'
-
-const prisma = new PrismaClient({
-  log: ['query'],
-})
+import { prisma } from '../../../shared/lib/prisma'
 
 export class GetProductsController {
   async handle() {
@@ -11,7 +7,7 @@ export class GetProductsController {
         name: 'Furniture',
       },
     })
-    console.log(products)
+
     return products
   }
 }

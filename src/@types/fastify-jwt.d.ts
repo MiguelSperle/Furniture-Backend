@@ -7,4 +7,4 @@ declare module '@fastify/jwt' {
     }
   }
 }
-// Eu tipo as informações que eu vou tirar de dentro do token
+// Eu tipo as informações que eu vou tirar de dentro do token, sub = id do user
