@@ -4,9 +4,9 @@ import { z } from 'zod'
 config() // Esse config ele carrega as variáveis de ambiente definidas no .env ao rodar o projeto
 
 const envShema = z.object({
-  PORT: z.coerce.number().default(3333),
+  PORT: z.coerce.number(),
   DATABASE_URL: z.string(),
-  JWT_SECRET_KEY: z.string().default('secret'),
+  JWT_SECRET_KEY: z.string(),
 })
 
 const _env = envShema.safeParse(process.env)
