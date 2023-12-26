@@ -28,7 +28,7 @@ user can log in with it, we have also a route that update token constantly to th
 
 ### What I improved and learned
 
-I was able to learn how to create and use Use Case and Data Transfer Object, I also learned a little about a architecture called S.O.L.I.D and I improved my logic doing new functionalities.
+I was able to learn how to create and use Use Case and Data Transfer Object, I also learned a little about S.O.L.I.D(set of good practices) and I improved my logic doing new functionalities.
 
 ---------------
 
