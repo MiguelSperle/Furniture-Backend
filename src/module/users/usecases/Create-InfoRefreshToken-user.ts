@@ -1,3 +1,4 @@
+// No use case você usa métodos do repositories para manipular o banco de dados
 import { ICreateRefreshTokenDTO } from '../DTOs/ICreateRefreshTokenDTO'
 import { UsersRepositoryType } from '../repositories/users-repository'
 

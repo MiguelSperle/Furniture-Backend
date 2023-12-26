@@ -7,7 +7,7 @@ import { IRefreshTokenDTO } from '../../DTOs/IRefreshTokenDTO'
 import dayjs from 'dayjs'
 import { GenerateTokenProvider } from '../../provider/GenerateTokenProvider'
 
-// class PrismaRepositoryControllers deve fornecer implementações... que seria os métodos do interface RepositoryControllersType
+// class PrismaRepositoryControllers deve fornecer implementações... que seria os métodos do interface UsersRepositoryType
 export class PrismaUsersRepository implements UsersRepositoryType {
   async createUser(data: ICreateUserDTO): Promise<IUserDTO> {
     const newUser = await prisma.user.create({

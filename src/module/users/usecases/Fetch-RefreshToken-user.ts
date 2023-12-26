@@ -1,3 +1,4 @@
+// No use case você usa métodos do repositories para manipular o banco de dados
 import { UsersRepositoryType } from '../repositories/users-repository'
 
 interface FetchRefreshTokenDTO {
