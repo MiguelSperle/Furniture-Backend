@@ -34,7 +34,7 @@ I was able to learn how to create and use Use Case and Data Transfer Object, I a
 
 ### Links
 
-- Repository: [Click-me](https://github.com/MiguelSperle/Ecommerce-Mobile-Backend)
+- Repository: [Click-me](https://github.com/MiguelSperle/Furniture-Backend)
 - Linkedin: [Click-me](https://www.linkedin.com/in/miguel-sperle-851916298/)
 
 ---------------
